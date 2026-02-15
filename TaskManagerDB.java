@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class TaskManagerDB {
 
     static final String URL = "jdbc:mysql://localhost:3306/task_manager";
-    static final String USER = "root";       // your username
-    static final String PASS = "Poojitha@20506";   // your password
+    static final String USER = "root";      
+    static final String PASS = "Poojitha@20506";   
 
     static Scanner sc = new Scanner(System.in);
 
@@ -101,4 +101,5 @@ public class TaskManagerDB {
             e.printStackTrace();
         }
     }
+
 }
