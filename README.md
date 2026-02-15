@@ -36,3 +36,4 @@ CREATE TABLE tasks (
     description TEXT,
     status VARCHAR(50)
 );
+
